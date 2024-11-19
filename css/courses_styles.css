@@ -288,3 +288,17 @@ footer h2{
 }
 
 }
+@media screen and (max-width:450px){
+  header .logo img{
+      height: 100px;
+      margin-top: 20px;
+  }
+  header .logo h1{
+      margin-top: 50px;
+      font-size: 16px;
+  }
+  #icon-nav{
+    
+      font-size: 20px;
+   }
+}

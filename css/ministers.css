@@ -143,30 +143,30 @@ header .logo span{
 }
 
 .item1 {
-    background-image: url('./img/alabanza.jpeg');
+    background-image: url('../img/alabanza.jpeg');
 }
 
 .item2 {
-    background-image: url('./img/oracion.jpg');
+    background-image: url('../img/oracion.jpg');
 }
 
 .item3 {
-    background-image: url(./img/carteles2.jpg);
+    background-image: url(../img/carteles2.jpg);
 }
 .item4{
-    background-image: url(./img/jovenes.jpeg);
+    background-image: url(../img/jovenes.jpeg);
 }
 .item5{
-    background-image: url(./img/servidor.jpg);
+    background-image: url(../img/servidor.jpg);
 }
 .item6{
-    background-image: url(./img/compartirbuenasnuevas.jpg);
+    background-image: url(../img/compartirbuenasnuevas.jpg);
 }
 .item7{
-    background-image: url(./img/camaras-para-grabar.jpg);
+    background-image: url(../img/camaras-para-grabar.jpg);
 }
 .item8{
-    background-image: url(./img/dominical.jpg);
+    background-image: url(../img/dominical.jpg);
 }
 
 .title {
@@ -273,6 +273,21 @@ footer .foot{
         font-size: 13px;
     }
 
+}
+
+@media screen and (max-width:450px){
+    header .logo img{
+        height: 100px;
+        margin-top: 20px;
+    }
+    header .logo h1{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #icon-nav{
+        margin-top: -30px;
+        font-size: 20px;
+     }
 }
 @media screen and (max-width:360px){
     header .logo img{
