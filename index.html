@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminando en Gracia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./img/icono.ico">
+    <script src="./js/func.js"></script>
+</head>
+<body>
+    <span class="shadow">
+        <section id="inicio" class="inicio">
+            <div class="content">
+                <header>
+                    <div class="logo">
+                        <img src="./img/logoimage.png" alt="eye-image-logo">
+                        <h1>Caminando en gracia</h1>
+                    </div>
+                    <nav class="" id="nav">
+                        <ul>
+                            <li><a href="index.html" onclick="closeMenu()">Inicio</a></li>
+                            <li><a href="ministers.html" onclick="closeMenu()" >Ministerios</a></li>
+                            <li><a href="courses.html" onclick="closeMenu()" >Capacitaciones</a></li>
+                            <li><a href="https://www.youtube.com/@RadioCeg105.3/videos" target="_blank" onclick="closeMenu()" >Predicaciones</a></li>
+                            <li><a href="#contacto" onclick="closeMenu()" >Envíanos un mensaje</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icon-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                  
+                </header>
+            <div class="presentacion">
+                <div class="presentacion-content">
+                    <h1>¡En <span>Cristo</span> encuentras tu paz y esperanza!</h1>
+                    <p>Te invitamos a participar en el proyecto para unirnos en la mision de predicar el evangelio de nuestro Señor Jesucristo a todas las naciones, en un mismo sentir. En este sitio web se compartirán predicaciones, materiales de estudio, cursos, capacitaciones sobre oficios, la posibilidad de usar tu talento para la edificación del cuerpo de Cristo y mucho más. Registrate para recibir notificaciones, Dios les bendiga estimados hermanos.</p>
+                </div>
+                <div class="presentacion-images" >
+                    <div class="image-p" id="imagin1">
+                        <img src="./img/recorte.jpg" alt="recorte jpg">
+                    </div>
+                    <div class="image-p" id="imagin2" >
+                        <img src="./img/Imagen de WhatsApp 2024-10-18 a las 15.35.02_352e9898.jpg"> 
+                    </div>
+                    <div class="image-p"  id="imagin3">
+                        <img src="./img/cartels.jpg" alt="">
+                    </div>
+                    <div class="image-p" id="imagin4" >
+                        <img class="agrandar" src="./img/peoprec.jpg" alt="">
+                    </div>
+                    <div class="image-p" id="imagin5">
+                        <img src="./img/carteles2.jpg" class="agrandar" alt="">
+                    </div>
+                    <div class="image-p" id="imagin6" >
+                        <img src="./img/cartels1.jpg" id="left" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </span>
+ 
+
+    
+    <section class="contacto" id="contacto">
+        <div class="contacto-content">
+    <form action="" class="form" >
+        <div class="form-header">
+            <h2>¿Tenés un pedido de oración?</h2>
+        </div>
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-input" placeholder="Escriba su nombre" id="nombre" required>
+        <label for="apellido" class="form-label">Apellido:</label>
+        <input type="text" class="form-input" placeholder="Escriba su apellido" id="apellido" required>
+        <label for="mensaje" class="form-label">Cuéntanos tu situación:</label>
+        <textarea name="" id="mensaje" class="form-textarea" placeholder="Cuéntanos un poco de ti. ¿De dónde eres? ¿Que situación estas pasando?" required></textarea>
+            <input type="submit" class="btn-submit" value="Enviar mensaje"onclick="sendMessageWithText()">
+    </form>
+    <div class="contact-informacion">
+        <h1>¿Dónde nos encontramos?</h1>
+        <div class="divmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395.237624073206!2d-68.76022906145829!3d-32.900332931025915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0f8e0b146d77%3A0xa546709916b2f6ba!2sIglesia%20Caminando%20en%20Gracia!5e0!3m2!1ses-419!2sar!4v1729288207124!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        </div>
+        </div>
+
+
+
+        <div class="info">
+        <h2>Reuniones presenciales</h2>
+        <div class="divbutton">
+            <i class="fa-solid fa-bolt"></i>
+            <a href="https://www.linkedin.com/in/franco-david-sanchez-929243283/" target="_blank">Lúnes: Ensayo de danza 19:00 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-person-praying"></i>
+            <a href="https://github.com/francodavyd" target="_blank">Martes: Reunión de oración 19:00 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-church igle"></i>
+            <a href="mailto:sanchezfranco7d@gmail.com" target="_blank">Miércoles: Reunión general 20:30 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-heart lov"></i>
+            <a href="#" onclick="sendMessage()">Jueves: Reunión de noviazgos 20:00 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-book-bible"></i>
+            <a href="https://www.instagram.com/frankinn.d/" target="_blank">Viernes: Estudio bíblico 20:00 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-guitar guit"></i>
+            <a href="https://www.linkedin.com/in/franco-david-sanchez-929243283/" target="_blank">Sábado: Ensayo musical 17:00 hs</a>
+         </div>
+         <div class="divbutton">
+            <i class="fa-solid fa-church igle"></i>
+            <a href="https://www.linkedin.com/in/franco-david-sanchez-929243283/" target="_blank">Domingo: Reunión general 10:30 hs</a>
+         </div>
+         <div class="contactar-con">
+            <h1>Información de contacto</h1>
+            <div class="divbutton">
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="mailto:sanchezfranco7d@gmail.com" target="_blank">261 607-4615</a>
+             </div>
+             <div class="divbutton">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="#" onclick="sendMessage()">caminando_en_gracia</a>
+             </div>
+             <div class="divbutton">
+                <i class="fa-brands fa-youtube"></i>
+                <a href="https://www.instagram.com/frankinn.d/" target="_blank">CEG_aprendizajes</a>
+             </div>
+             <div class="divbutton">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.linkedin.com/in/franco-david-sanchez-929243283/" target="_blank">Caminando EnGracia Iglesia</a>
+             </div>
+             <div class="divbutton">
+                <i class="fa-solid fa-radio"></i>
+                <a href="https://www.linkedin.com/in/franco-david-sanchez-929243283/" target="_blank">Radio CEG 80.5 FM</a>
+             </div>
+         
+        </div>
+        </div>
+        
+       </section>
+
+
+       <footer>
+        <div class="foot">
+            <h2>Copyright © 2024. Iglesia Caminando en Gracia. Mendoza, Argentina.</h2>
+        </div>
+       </footer>
+      
+</body>
+</html>
